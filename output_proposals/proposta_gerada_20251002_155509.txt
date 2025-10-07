@@ -1,0 +1,173 @@
+**Proposta Técnica e Comercial**
+
+**Proposta para Implementação da Plataforma de Trânsito Aduaneiro Monitorado (TRAM).**
+
+**ID da Proposta:** APR004-25  
+**Versão:** 1.0  
+**Data:** 11/09/2025  
+**Validade:** 15 dias
+
+---
+
+**Objetivo da Proposta**
+
+Apresentamos o plano para implementar a Plataforma TRAM, alinhando as operações da APRA à Portaria SRRF08 Nº 498/2024. Nosso plano de trabalho é entregar um MVP para conformidade em 4 meses, seguido pela evolução completa da plataforma e um serviço de suporte contínuo para garantir o sucesso e a estabilidade da operação.
+
+---
+
+**Escopo da Solução e Projeto**
+
+**Visão Geral da Solução Completa:**
+
+- **Plataforma Web Centralizada:** Interface única para Aduana, Transportadores, Depositários e Importadores.
+- **Monitoramento em Tempo Real:** Visualização ao vivo de todas as viagens no mapa.
+- **Integração com SMV:** Compatibilidade com os sistemas de monitoramento de veículos já utilizados pelos transportadores.
+- **API para Associados:** Permite que os associados integrem os dados do TRAM em seus próprios sistemas.
+- **Conformidade Total:** Atendimento a todos os requisitos de workflows, comunicação e armazenamento de dados da Portaria.
+
+A solução final será uma plataforma SaaS completa para gestão e monitoramento do trânsito aduaneiro.
+
+**Como planejamos a entrega:**
+
+- **Fase 1 - MVP:** Versão funcional para monitoramento em tempo real.
+- **Fase 2 - Plataforma TRAM Operacional:** Evolução da Plataforma com entrega incremental de todas as funcionalidades restantes, como os módulos de comunicação avançada, workflows complexos e Módulo Aduana.
+- **Fase 3 - API de Integração e Documentação:** Acesso e documentação completa da API para integração dos sistemas dos associados.
+- **Fase 4 - Suporte e Manutenção Contínuo:** Acordo de nível de serviço (SLA) para garantir a operação, suporte e manutenção da plataforma em todas as suas fases.
+
+**Equipe Treinada:** Usuários-chave capacitados para operar o sistema.
+
+---
+
+**Como a entrega vai funcionar:**
+
+**Execução:**
+
+| Fase | Mês 1 | Mês 2 | Mês 3 | Mês 4 | Mês 5 | Mês 6 | Mês 7 | Mês 8 |
+|------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Fase 1 - MVP Regulatório | X | X | X | X |   |   |   |   |
+| Fase 2 - Evolução da Plataforma |   |   |   | X | X | X |   |   |
+| Fase 3 - API de Integração Documentada |   |   |   |   |   | X | X |   |
+| Fase 4 - Suporte e Manutenção Contínuo |   |   |   |   |   |   | X | X |
+
+**Detalhamento das Fases:**
+
+**MVP Regulatório (Duração: 4 Meses)**
+
+- **Objetivo:** Alcançar a conformidade com a Portaria no menor tempo possível.
+- **Funcionalidades:**
+  - Gestão de Acesso (Perfis Transportador, Depositário, Aduana).
+  - Cadastros Essenciais (Veículos e Rotas).
+  - Dashboard com Mapa em Tempo Real.
+  - Registro e Acompanhamento de Viagem.
+  - Integração com 1 Provedor de SMV.
+  - Consulta de Viagens Ativas.
+
+**Evolução da Plataforma (Duração: 2.5 Meses)**
+
+- **Objetivo:** Aumentar a eficiência e colaboração entre os usuários.
+- **Funcionalidades:**
+  - Módulo de Comunicação Completo (com resposta).
+  - Workflows de "Trânsito Fora do Padrão" e "Interrupção de Trânsito".
+  - Notificações Automáticas de Chegada Prevista.
+  - Módulo de Mídia (Upload de imagens/vídeos).
+  - Módulo Aduana (Gestão de Riscos - GR).
+
+**Finalizar a plataforma como uma solução completa e integrável.**
+
+- **Objetivo:** Alcançar a conformidade com a Portaria no menor tempo possível.
+- **Funcionalidades:**
+  - API Pública para Associados.
+  - Integração com 2º Provedor de SMV.
+  - Perfil de Usuário "Importador".
+  - Consultas e Filtros Avançados (Grupos "CONSULTA VIAGENS" e "CONSULTA DTAs").
+
+---
+
+**Suporte e Abertura de Chamados**
+
+- **Telefone:** Linha exclusiva para o atendimento do cliente via voz (não utilizado para abrir chamado).
+- **E-mail:** Canal oficial para abertura e registro do chamado e em casos de necessidade do envio de arquivos ou evidências que complementam o chamado.
+- **WhatsApp:** Número dedicado para atendimento via chat (não utilizado para abrir chamado).
+
+Os chamados são registrados na ferramenta de chamados em uso pela Mosten para registro dos incidentes, e geram um número de protocolo, o qual será utilizado para acompanhamento de status, histórico e estatísticas, em relatórios, dashboards e gráficos com os indicadores que serão disponibilizados ao cliente.
+
+---
+
+**Plano de Suporte e Sustentação Pós-MVP**
+
+- **Escala 10 x 5:** Atendimento N1 – Horário comercial.
+  - **Suporte à Operação:** Atendimento 10x5 para dúvidas e incidentes.
+  - **Manutenção Corretiva:** Resolução de falhas e bugs que afetem o funcionamento das funcionalidades entregues.
+  - **Sustentação Técnica:** Ações para garantir a estabilidade e a performance do ambiente em produção.
+
+**Acordo Nível Silver**
+
+- **Criticidade e Tempo de Resposta/Resolução:**
+  - **Baixo:** 16 horas / 48 horas.
+  - **Médio:** 8 horas / 40 horas.
+  - **Alto:** 6 horas / 32 horas.
+  - **Crítico:** 4 horas / 24 horas.
+
+---
+
+**Premissas & Restrições**
+
+**Premissas Técnicas:**
+
+- **APIs dos SMVs:** As APIs dos sistemas de monitoramento de veículos (SMV) de terceiros devem ser estáveis, documentadas e fornecer os dados necessários em tempo real.
+- **Infraestrutura em Nuvem:** A solução será operada em nossa infraestrutura de nuvem (AWS, Azure ou GCP), utilizando serviços padrão para garantir escalabilidade e performance.
+- **Navegadores Suportados:** O suporte da plataforma se restringe às versões mais recentes dos navegadores Chrome, Firefox, Edge e Safari.
+- **Volume de Operações:** A arquitetura suportará o volume de transações e veículos definido na fase de planejamento. Aumentos significativos podem exigir revisão da infraestrutura.
+
+---
+
+**Condições Comerciais**
+
+A nossa proposta é baseada no modelo SaaS (Software as a Service), onde um valor mensal fixo cobre todos os custos da solução, desde o desenvolvimento até a operação contínua, garantindo previsibilidade e tranquilidade.
+
+**O que está incluso no valor mensal?**
+
+- **Desenvolvimento e Implantação:** Cobre as horas de desenvolvimento necessárias para a construção e entrega da plataforma TRAM, conforme o modelo de investimento escolhido.
+- **Infraestrutura em Nuvem:** Inclui todos os custos de servidores, banco de dados, segurança e manutenção do ambiente na nuvem.
+- **Suporte Técnico 10x5:** Acesso à nossa equipe de suporte de segunda a sexta, das 8h às 18h, para garantir a estabilidade e o bom funcionamento da plataforma.
+
+---
+
+**Perfil do Projeto**
+
+- **Project Manager (PM)**
+- **Analista de Negócios**
+- **Tech Lead**
+- **Desenvolvedores Full Stack**
+- **Analista de QA**
+
+---
+
+**Dados Cadastrais**
+
+- **Razão Social:** Mosten Negócios & Tecnologia Ltda
+- **Nome Fantasia:** Mosten
+- **Data do contrato social:** 08/07/2015
+- **Endereço:** Rua Visconde do Rio Branco nº 02, 6º andar, CEP: 11013-923 – Ed. Rio Branco - Santos / SP
+- **Contato:**
+  - **E-mail comercial:** comercial@mosten.com
+  - **Telefone:** +55 13 4101-0010
+
+**Dados Bancários:**
+
+- **Banco:** 341 – Itaú Unibanco SA
+- **Agência:** 0268
+- **Conta:** 40818-4
+- **Identificação:**
+  - **CNPJ:** 67.201.640/0001-30
+  - **Inscrição Municipal:** 1032433
+
+**Representante Comercial:**
+
+- **Nome:** Richard Papadimitriou
+- **Email:** richard.lucio@mosten.com
+- **Telefone:** +55 13 996094955
+
+---
+
+**Tecnologia e negócios caminham juntos.**

@@ -1,0 +1,86 @@
+```markdown
+======================================================================
+                  PROPOSTA TÉCNICA E COMERCIAL
+======================================================================
+
+CLIENTE: Bridgestone
+PROJETO: Sistema de Coleta de Dados de Produção
+DATA: [Data Atual]
+
+----------------------------------------------------------------------
+1. OBJETIVO DO PROJETO
+----------------------------------------------------------------------
+Desenvolver um sistema que coleta dados de cinco máquinas de produção de pneus a cada cinco segundos e armazena essas informações em um banco de dados SQL Server.
+
+----------------------------------------------------------------------
+2. FUNCIONALIDADES DA SOLUÇÃO COMPLETA
+----------------------------------------------------------------------
+- **Módulo de Coleta de Dados:**
+  - Comunicação automática com máquinas via protocolos industriais.
+  - Suporte para até 300 tags de dados.
+  - Tratamento de falhas e logs de monitoramento.
+
+- **Módulo de Armazenamento de Dados:**
+  - Banco de dados SQL Server 2019 otimizado.
+  - Implementação de índices e rotinas de limpeza periódica.
+  - Garantia de integridade e segurança da informação.
+
+----------------------------------------------------------------------
+3. ESTRUTURA DE ESFORÇO E CRONOGRAMA (PROJETO COMPLETO)
+----------------------------------------------------------------------
+A estimativa de esforço para o projeto completo foi calculada com base na análise de complexidade de cada módulo, comparada ao nosso portfólio de projetos similares.
+
+**3.1. Matriz de Estimativa de Esforço (Horas):**
+
+| Módulo                      | Planejamento | Desenvolvimento | Testes | Total |
+|-----------------------------|--------------|-----------------|--------|-------|
+| Coleta de Dados             | 40           | 200             | 60     | 300   |
+| Armazenamento de Dados      | 40           | 150             | 40     | 230   |
+| **Total Geral**             | **80**       | **350**         | **100**| **530**|
+
+**3.2. Cronograma de Execução:**
+
+- **Fase 1 (Semanas 1-2):** Planejamento e Desenvolvimento Inicial
+- **Fase 2 (Semanas 3-6):** Desenvolvimento e Testes
+- **Fase 3 (Semanas 7-8):** Testes Integrados
+
+----------------------------------------------------------------------
+4. EQUIPE RECOMENDADA
+----------------------------------------------------------------------
+- Gerente de Projetos
+- Engenheiro de Dados
+- Desenvolvedor Back-end
+
+----------------------------------------------------------------------
+5. PREMISSAS E RESTRIÇÕES
+----------------------------------------------------------------------
+**Premissas:**
+- Acesso contínuo às máquinas para integração.
+- Disponibilidade de recursos técnicos para suporte.
+
+**Restrições (Fora do Escopo):**
+- Desenvolvimento de interface de usuário ou prototipação de telas.
+- Integração com sistemas externos não especificados.
+
+----------------------------------------------------------------------
+6. SUGESTÃO DE MVP (MÍNIMO PRODUTO VIÁVEL)
+----------------------------------------------------------------------
+
+Para gerar valor rapidamente e mitigar riscos, propomos uma entrega inicial focada no maior impacto de negócio.
+
+**Módulo(s) / Funcionalidade(s) do MVP:**
+- Coleta de Dados de duas máquinas críticas (Triplex A e Calandra 1).
+- Armazenamento básico no SQL Server.
+
+**Justificativa de Valor (Efeito UAU):**
+- Este MVP é Usável, pois resolve o problema imediato de coleta e armazenamento de dados críticos.
+- É Viável, pois pode ser construído rapidamente em 4 semanas.
+- Gera alto valor percebido, permitindo que a Bridgestone comece a monitorar e otimizar a produção com dados reais.
+
+**Estimativa de Esforço e Tempo para o MVP:**
+- **Total de Horas:** 320
+- **Cronograma:** 4 semanas
+
+**Evolução Pós-MVP:**
+- Após o sucesso do MVP, os demais módulos e funcionalidades serão integrados em fases subsequentes, com foco na expansão da coleta de dados para todas as máquinas.
+```

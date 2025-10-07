@@ -1,0 +1,107 @@
+```plaintext
+======================================================================
+                  PROPOSTA TÉCNICA E COMERCIAL
+======================================================================
+
+CLIENTE: Movecta
+PROJETO: Portal de Gestão de Operações e Faturamento
+DATA: [Data Atual]
+
+----------------------------------------------------------------------
+1. OBJETIVO DO PROJETO
+----------------------------------------------------------------------
+O objetivo do projeto é desenvolver um portal integrado para a Movecta que centralize a gestão de operações de logística, faturamento e serviços associados. Este portal proporcionará autonomia e eficiência aos usuários na administração de suas atividades, desde o login até a finalização de pagamentos e solicitações de serviços, considerando a complexidade de arquitetura, frontend e backend.
+
+----------------------------------------------------------------------
+2. FUNCIONALIDADES DA SOLUÇÃO COMPLETA
+----------------------------------------------------------------------
+**Módulo de Autenticação e Acesso:**
+- Login e autenticação de dois fatores.
+- Recuperação e redefinição de senha.
+- Gestão de primeiro acesso e seleção de terminal.
+
+**Módulo de Faturamento:**
+- Listagem e visualização de faturas.
+- Pagamento de faturas via PIX, boleto, TED/DOC.
+- Prorrogação de pagamento e questionamento de valores.
+
+**Módulo de Solicitação de Serviços:**
+- Criação e acompanhamento de solicitações de serviço.
+- Edição e confirmação de solicitações.
+- Histórico de solicitações e notificações.
+
+**Módulo de Averbação e Redestinação:**
+- Gestão de documentos e anexos para averbação.
+- Vinculação de transportadoras e notas fiscais.
+- Solicitação e acompanhamento de redestinação de cargas.
+
+**Módulo de Base de Conhecimento:**
+- Acesso a artigos e FAQs.
+- Pesquisa e navegação por tópicos.
+- Exportação e impressão de conteúdos.
+
+----------------------------------------------------------------------
+3. ESTRUTURA DE ESFORÇO E CRONOGRAMA (PROJETO COMPLETO)
+----------------------------------------------------------------------
+
+**3.1. Matriz de Estimativa de Esforço (Horas):**
+
+| Módulo                        | Discovery | Planejamento | Desenvolvimento | Testes | Homologação | Go Live | Total |
+|-------------------------------|-----------|--------------|-----------------|--------|-------------|---------|-------|
+| Autenticação e Acesso         | 120       | 90           | 300             | 120    | 90          | 60      | 780   |
+| Faturamento                   | 150       | 120          | 360             | 150    | 120         | 90      | 990   |
+| Solicitação de Serviços       | 150       | 120          | 390             | 150    | 120         | 90      | 1020  |
+| Averbação e Redestinação      | 180       | 150          | 420             | 180    | 150         | 120     | 1200  |
+| Base de Conhecimento          | 90        | 60           | 240             | 90     | 60          | 30      | 570   |
+| **Total**                     | **690**   | **540**      | **1710**        | **690**| **540**     | **390** | **4560**|
+
+**3.2. Cronograma de Execução (em meses):**
+
+- **Discovery:** Meses 1-2
+- **Planejamento:** Meses 3-4
+- **Desenvolvimento:** Meses 5-10
+- **Testes:** Meses 11-12
+- **Homologação:** Meses 13-14
+- **Go Live:** Mês 15
+
+----------------------------------------------------------------------
+4. EQUIPE RECOMENDADA
+----------------------------------------------------------------------
+- 1 Gerente de Projeto
+- 4 Analistas de Negócios
+- 8 Desenvolvedores Full Stack
+- 4 Designers UX/UI
+- 5 Testadores de Software
+- 3 Especialistas em Segurança
+- 3 Especialistas em Infraestrutura
+- 2 Arquitetos de Soluções
+
+----------------------------------------------------------------------
+5. PREMISSAS E RESTRIÇÕES
+----------------------------------------------------------------------
+**Premissas:**
+- A infraestrutura necessária estará disponível antes do início do desenvolvimento.
+- Os requisitos de integração com sistemas externos serão fornecidos no início do projeto.
+
+**Restrições (Fora do Escopo):**
+- Integrações com sistemas de terceiros não especificados.
+- Suporte pós-implementação além do período de garantia.
+
+----------------------------------------------------------------------
+6. SUGESTÃO DE MVP (MÍNIMO PRODUTO VIÁVEL)
+----------------------------------------------------------------------
+
+**Módulo(s) / Funcionalidade(s) do MVP:**
+- Autenticação e Acesso: Login, redefinição de senha, autenticação de dois fatores.
+- Faturamento: Listagem de faturas, pagamento via PIX e boleto.
+
+**Justificativa de Valor (Efeito UAU):**
+- Este MVP é usável e viável, pois aborda as necessidades críticas de segurança e faturamento, permitindo que os usuários acessem o sistema e realizem pagamentos de forma eficiente, gerando um impacto positivo imediato na operação diária.
+
+**Estimativa de Esforço e Tempo para o MVP:**
+- Esforço: 1200 horas
+- Tempo: 24 semanas
+
+**Evolução Pós-MVP:**
+- Após o sucesso do MVP, os módulos de Solicitação de Serviços, Averbação e Redestinação, e Base de Conhecimento serão desenvolvidos em fases subsequentes, com entregas incrementais a cada 8 semanas.
+```

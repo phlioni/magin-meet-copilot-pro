@@ -1,0 +1,79 @@
+======================================================================
+                  PROPOSTA TÉCNICA E COMERCIAL
+======================================================================
+
+CLIENTE: [Nome do Cliente]
+PROJETO: API Centralizada para Recuperação e Redefinição de Senha
+DATA: [Data Atual]
+VALIDADE: 15 dias
+
+----------------------------------------------------------------------
+1. OBJETIVO DO PROJETO
+----------------------------------------------------------------------
+
+O objetivo do projeto é desenvolver uma API RESTful centralizada que permita a uma aplicação cliente autorizada gerenciar de forma segura o fluxo de recuperação de senha para usuários que existem em múltiplas instâncias de sistema com bancos de dados independentes. A solução garantirá a segurança e a integridade dos dados dos usuários, utilizando tokens de segurança temporários para autenticação sem trafegar senhas pela rede.
+
+----------------------------------------------------------------------
+2. FUNCIONALIDADES DA SOLUÇÃO
+----------------------------------------------------------------------
+
+**Módulo 1: Solicitação de Recuperação de Senha**
+- Iniciar fluxo de recuperação de senha: Permitir que a aplicação cliente envie identificadores de usuário para iniciar o processo de recuperação.
+- Geração de Token Seguro: Gerar um token criptograficamente seguro e enviar um link de redefinição para o e-mail do usuário.
+
+**Módulo 2: Redefinição de Senha**
+- Validação de Token: Validar o token recebido pelo usuário para garantir sua autenticidade e validade.
+- Atualização de Senha: Permitir que o usuário defina uma nova senha, que será atualizada em todas as instâncias do sistema.
+
+----------------------------------------------------------------------
+3. FASES E ESTIMATIVA DE HORAS
+----------------------------------------------------------------------
+
+Com base na análise de complexidade e em nosso portfólio de projetos similares, propomos o seguinte plano de execução e estimativa de esforço.
+
+**3.1. Fases do Projeto:**
+
+- **Discovery e Planejamento:** Análise detalhada dos requisitos e planejamento do projeto. (20 horas)
+- **Desenvolvimento de Backend:** Implementação dos endpoints da API e lógica de negócio. (60 horas)
+- **Testes e Homologação:** Testes unitários e de integração para garantir a funcionalidade e segurança da API. (30 horas)
+- **Implantação e Treinamento:** Implantação da API em ambiente de produção e treinamento da equipe do cliente. (20 horas)
+
+**3.2. Estimativa de Esforço Detalhada:**
+
+- **Módulo 1: Solicitação de Recuperação de Senha:** 50 horas
+- **Módulo 2: Redefinição de Senha:** 40 horas
+
+- **Discovery e Planejamento:** 20 horas
+- **Desenvolvimento de Backend:** 60 horas
+- **Testes e Homologação:** 30 horas
+- **Implantação e Treinamento:** 20 horas
+
+----------------------------------------------------------------------
+4. CRONOGRAMA MACRO DE ENTREGAS
+----------------------------------------------------------------------
+
+- **Semana 1-2:** Discovery e Planejamento
+- **Semana 3-5:** Desenvolvimento de Backend
+- **Semana 6:** Testes e Homologação
+- **Semana 7:** Implantação e Treinamento
+
+----------------------------------------------------------------------
+5. EQUIPE RECOMENDADA
+----------------------------------------------------------------------
+
+- Arquiteto de Software
+- Desenvolvedor Backend
+- Engenheiro de Testes
+- Especialista em Segurança da Informação
+
+----------------------------------------------------------------------
+6. PREMISSAS E RESTRIÇÕES
+----------------------------------------------------------------------
+
+**Premissas:**
+- A aplicação cliente fornecerá todos os identificadores necessários para a recuperação de senha.
+- O cliente disponibilizará acesso aos ambientes de desenvolvimento e produção.
+
+**Restrições (Fora do Escopo):**
+- Integração com sistemas externos além dos especificados.
+- Desenvolvimento de funcionalidades de frontend para a aplicação cliente.

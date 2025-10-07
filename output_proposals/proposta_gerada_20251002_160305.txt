@@ -1,0 +1,101 @@
+```
+======================================================================
+                  PROPOSTA TÉCNICA E COMERCIAL
+======================================================================
+
+CLIENTE: Bridgestone
+PROJETO: Sistema de Coleta e Relatórios de Dados de Produção
+DATA: 02 de Outubro de 2025
+VALIDADE: 15 dias
+
+----------------------------------------------------------------------
+1. OBJETIVO
+----------------------------------------------------------------------
+
+Desenvolver um sistema que coleta dados de 5 máquinas a cada 5 segundos, armazena essas informações no SQL Server e permite a visualização dos resultados em relatórios tabulares.
+
+----------------------------------------------------------------------
+2. FUNCIONALIDADES POR MÓDULO
+----------------------------------------------------------------------
+
+A solução será entregue nos seguintes módulos funcionais:
+
+**Módulo 1: Coleta de Dados**
+- **Funcionalidade 1.1:** Comunicação automática com as máquinas de produção via protocolos industriais.
+- **Funcionalidade 1.2:** Captura de dados de até 300 tags a cada 5 segundos.
+
+**Módulo 2: Armazenamento de Dados**
+- **Funcionalidade 2.1:** Modelagem de banco de dados no SQL Server 2019.
+- **Funcionalidade 2.2:** Implementação de índices e rotinas de limpeza periódica.
+
+**Módulo 3: Relatórios**
+- **Funcionalidade 3.1:** Desenvolvimento de até 12 relatórios em SSRS.
+- **Funcionalidade 3.2:** Visualização de dados em formato tabular.
+
+**Módulo 4: Testes e Suporte**
+- **Funcionalidade 4.1:** Condução de testes integrados in loco.
+- **Funcionalidade 4.2:** Suporte ao Go Live e treinamento de usuários.
+
+----------------------------------------------------------------------
+3. ESTIMATIVA DE HORAS
+----------------------------------------------------------------------
+
+A estimativa de esforço foi calculada com base na análise de complexidade de cada módulo, comparada a projetos similares.
+
+**3.1. Estimativa de Horas por Módulo:**
+
+| MÓDULO                       | HORAS ESTIMADAS |
+|------------------------------|-----------------|
+| Coleta de Dados              | 320             |
+| Armazenamento de Dados       | 240             |
+| Relatórios                   | 360             |
+| Testes e Suporte             | 180             |
+| **TOTAL POR MÓDULO**         | **1100**        |
+
+**3.2. Estimativa de Horas por Fase do Projeto:**
+
+| FASE DO PROJETO                | HORAS ESTIMADAS |
+|--------------------------------|-----------------|
+| Discovery e Planejamento       | 100             |
+| Design UI/UX e Prototipagem    | 100             |
+| Desenvolvimento                | 600             |
+| Testes e Homologação           | 200             |
+| Implantação e Treinamento      | 100             |
+| **TOTAL GERAL**                | **1100**        |
+
+----------------------------------------------------------------------
+4. CRONOGRAMA MACRO DE ENTREGAS
+----------------------------------------------------------------------
+
+O projeto será entregue em um período de 6 meses, com as seguintes fases principais:
+- Discovery e Planejamento: 1 mês
+- Design UI/UX e Prototipagem: 1 mês
+- Desenvolvimento: 3 meses
+- Testes e Homologação: 1 mês
+- Implantação e Treinamento: 1 mês
+
+----------------------------------------------------------------------
+5. EQUIPE RECOMENDADA
+----------------------------------------------------------------------
+
+Para garantir a qualidade e o sucesso do projeto, recomendamos a seguinte equipe:
+
+- Gerente de Projetos
+- Arquiteto de Soluções
+- Desenvolvedor Sênior
+- Analista de Dados
+- Especialista em SSRS
+
+----------------------------------------------------------------------
+6. PREMISSAS E RESTRIÇÕES
+----------------------------------------------------------------------
+
+**Premissas:**
+- A comunicação com as máquinas será feita via FTTM/RSLinx ou OPC Router/Kepware.
+- O banco de dados utilizado será o SQL Server 2019.
+- O projeto será gerenciado com cronograma em MS Project e report semanal.
+
+**Restrições (Fora do Escopo):**
+- Integrações com sistemas externos não especificados no briefing.
+- Desenvolvimento de funcionalidades adicionais não listadas nos módulos acima.
+```

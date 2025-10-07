@@ -1,0 +1,73 @@
+Proposta Técnica e Comercial  
+Proposta para Implementação da Plataforma de Intranet Corporativa GDL  
+ID da Proposta GDL001-25 Versão 1.0 Data 30/09/2025 Validade: 15 dias
+
+### Objetivo da Proposta
+Desenvolver e implantar uma plataforma corporativa customizada, composta por um portal web e um aplicativo mobile, para centralizar a comunicação e otimizar processos na GDL. A solução utilizará o SharePoint como um repositório de documentos seguro e integrado.
+
+### Escopo da Solução e Projeto
+#### Visão Geral da Solução
+- **Portal Web**: A principal ferramenta de trabalho e comunicação, acessível via navegador e totalmente integrado ao Microsoft Teams, destinado aos colaboradores com licenças Microsoft 365.
+- **Aplicativo Móvel**: Um aplicativo nativo, desenvolvido para alcançar os colaboradores operacionais, garantindo que a comunicação e os recursos essenciais cheguem a 100% da força de trabalho.
+- **Integração com Microsoft 365**: Conectores operacionais para comunicação com SharePoint, Teams e Microsoft Entra ID.
+
+### Funcionalidades da Solução
+#### Módulo 1: Comunicação e Engajamento
+- **Página Inicial Dinâmica**: Feed de notícias com comunicados, eventos e conteúdos multimídia.
+- **Banners de Alto Impacto**: Recurso visual para destacar campanhas e comunicados importantes.
+- **Publicação de Notícias**: Editor de conteúdo intuitivo com agendamento, métricas de curtidas, visualizações e comentários.
+
+#### Módulo 2: Colaboração e Produtividade
+- **Repositório de Documentos**: Armazenamento centralizado de manuais, políticas e modelos no SharePoint, com permissões granulares.
+- **Páginas por Departamento**: Espaços customizáveis para que cada área compartilhe suas informações específicas, como documentos e dashboards.
+
+#### Módulo 3: Gestão de Pessoas e Cultura
+- **Reconhecimento de Colaboradores**: Exibição automática de aniversariantes, tempo de casa e novos contratados.
+- **Elogios entre Pares**: Funcionalidade para envio de elogios públicos, promovendo o reconhecimento e o pertencimento.
+
+#### Módulo 4: Governança e Compliance
+- **Gestão de Políticas com Aceite**: Módulo para publicar políticas, com segmentação por público, marcação de obrigatoriedade e registro de aceite com log para auditoria.
+
+#### Módulo 5: Acesso Móvel e Inteligência Artificial
+- **Aplicativo Mobile**: App nativo para colaboradores operacionais com acesso a notícias, notificações, chat e ferramentas.
+- **Assistente Virtual Corporativo com IA**: Um chatbot inteligente que responde a perguntas e automatiza tarefas.
+
+### Cronograma e Estimativas
+#### Detalhamento das Fases
+- **Discovery e Planejamento**: 300 horas
+- **Design UI/UX e Prototipagem**: 350 horas
+- **Desenvolvimento - Fase 1 (Core Web)**: 2100 horas
+- **Desenvolvimento - Fase 2 (App & IA)**: 2250 horas
+- **Testes, Homologação e Implantação**: 450 horas
+- **Treinamento e Operação Assistida**: 150 horas
+- **Total**: 5600 horas
+
+### Equipe do Projeto
+- **Tech Lead**
+- **Gerente de Projetos**
+- **Arquiteto de Soluções**
+- **Analista de Negócios**
+- **Designer UI/UX**
+- **Desenvolvedor Frontend**
+- **Desenvolvedor Backend**
+- **Analista de QA**
+
+### Premissas & Restrições
+- **Colaboração do Cliente**: O sucesso do projeto depende da disponibilidade contínua dos especialistas e tomadores de decisão da GDL para participar de workshops, validações e homologações dentro dos prazos estabelecidos.
+- **Ambiente Microsoft 365**: Partimos da premissa que o Tenant Microsoft 365 da GDL está devidamente configurado, com as licenças adequadas para os usuários, e que nossa equipe terá o acesso de administrador necessário para a implantação.
+- **Fornecimento de Conteúdo e Identidade Visual**: É de responsabilidade do cliente fornecer todo o conteúdo inicial para a carga no portal (documentos, políticas, notícias), bem como o manual de identidade visual da marca (logos, paleta de cores, fontes).
+
+### Condições Comerciais
+A proposta é baseada no modelo SaaS (Software as a Service), onde um valor mensal fixo cobre todos os custos da solução, desde o desenvolvimento até a operação contínua, garantindo previsibilidade e tranquilidade.
+
+### Dados Cadastrais
+- **Mosten Negócios & Tecnologia Ltda**
+- **Endereço**: Rua Visconde do Rio Branco nº 02, 6º andar, CEP: 11013-923 – Ed. Rio Branco - Santos / SP
+- **Contato**: E-mail comercial: comercial@mosten.com​, Telefone: +55 13 4101-0010
+
+### Representante Comercial
+- **Nome**: Richard Papadimitriou
+- **Email**: richard.lucio@mosten.com
+- **Telefone**: +55 13 996094955
+
+Esta proposta visa atender às necessidades específicas da GDL, garantindo uma solução robusta, escalável e totalmente integrada ao ecossistema Microsoft 365.

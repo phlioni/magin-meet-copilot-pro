@@ -1,0 +1,107 @@
+Proposta Técnica e Comercial
+
+Proposta para Implementação do Portal Intranet GDL
+
+ID da Proposta GDL002-25 Versão 1.0 Data 30/09/2025 Validade: 15 dias
+
+Objetivo da Proposta
+
+Apresentamos o plano para implementar a Plataforma de Intranet GDL, com o objetivo de centralizar a comunicação interna e otimizar processos organizacionais. A solução proposta visa aumentar o engajamento dos colaboradores, facilitar a gestão de conteúdos e garantir o alcance total da comunicação interna, utilizando a tecnologia SharePoint da Microsoft.
+
+Escopo da solução e projeto
+
+Visão Geral da Solução Completa:
+
+• Portal Web Centralizado: Interface única para comunicação e acesso a informações institucionais e específicas de cada departamento.
+• Aplicativo Móvel (HyLite): Aplicativo nativo para colaboradores operacionais, garantindo comunicação 360°.
+• Integração com Microsoft Teams: Acesso ao portal diretamente no Teams, aumentando a conveniência e acessibilidade.
+• Gestão de Conteúdos: Ferramentas para criação e gerenciamento de notícias, depoimentos, galerias de fotos e mais.
+• Analytics de Engajamento: Painel com métricas detalhadas sobre o uso do portal e engajamento dos colaboradores.
+
+A solução final será uma plataforma de intranet moderna e intuitiva, desenvolvida para atender às necessidades específicas da GDL.
+
+Como planejamos a entrega
+
+Fase 1 - Levantamento de Requisitos
+Fase 2 - Desenvolvimento e Testes
+Fase 3 - Implantação e Treinamento
+Fase 4 - Suporte e Manutenção Contínuo
+
+Como a entrega vai funcionar
+
+Execução Mês 1 Mês 2 Mês 3 Mês 4 Mês 5 Mês 6
+Fase 1 - Levantamento de Requisitos
+Fase 2 - Desenvolvimento e Testes
+Fase 3 - Implantação e Treinamento
+Fase 4 - Suporte e Manutenção Contínuo
+
+Detalhamento das Fases
+
+Levantamento de Requisitos (Duração: 1 Mês)
+Fase 1
+Objetivo: Mapear processos e desafios do dia a dia para garantir alinhamento estratégico.
+Funcionalidades:
+• Workshops com equipes da GDL.
+• Documentação de requisitos detalhada.
+
+Desenvolvimento e Testes (Duração: 2 Meses)
+Fase 2
+Objetivo: Desenvolver e testar a plataforma de intranet.
+Funcionalidades:
+• Desenvolvimento do portal web e aplicativo móvel.
+• Testes de integração e usabilidade.
+
+Implantação e Treinamento (Duração: 1 Mês)
+Fase 3
+Objetivo: Implantar a solução e capacitar os usuários.
+Funcionalidades:
+• Implantação no ambiente Microsoft 365 da GDL.
+• Treinamento para usuários-chave e operação assistida.
+
+Suporte e Manutenção Contínuo (Início após Fase 3)
+Fase 4
+Objetivo: Garantir a estabilidade e operação contínua da plataforma.
+Funcionalidades:
+• Suporte técnico 10x5.
+• Manutenção corretiva e preventiva.
+
+Premissas & Restrições
+
+Premissas Técnicas
+
+• Ambiente Microsoft 365: A solução será implantada no tenant Microsoft 365 da GDL, com as licenças adequadas.
+• Colaboração do Cliente: Disponibilidade contínua dos especialistas da GDL para workshops e validações.
+• Fornecimento de Conteúdo: O cliente fornecerá todo o conteúdo inicial e identidade visual para carga no portal.
+
+Condições Comerciais
+
+A nossa proposta é baseada no modelo de projeto com fases definidas, onde o investimento cobre desde o desenvolvimento até a operação contínua, garantindo previsibilidade e tranquilidade.
+
+O que está incluso no valor do projeto?
+
+Desenvolvimento e Implantação: Cobre as horas de desenvolvimento necessárias para a construção e entrega da plataforma.
+Infraestrutura em Nuvem: Inclui todos os custos de servidores, banco de dados, segurança e manutenção do ambiente na nuvem.
+Suporte Técnico 10x5: Acesso à nossa equipe de suporte de segunda a sexta, das 8h às 18h, para garantir a estabilidade e o bom funcionamento da plataforma.
+
+Perfil do projeto
+
+• Project Manager (PM)
+• Analista de Negócios
+• Tech Lead
+• Desenvolvedores Full Stack
+• Analista de QA
+
+Dados cadastrais
+
+Mosten Negócios & Tecnologia Ltda
+Razão Social: Mosten
+Nome Fantasia: Mosten
+Data do contrato social: 08/07/2015
+Endereço: Rua Visconde do Rio Branco nº 02, 6º andar, CEP: 11013-923 – Ed. Rio Branco - Santos / SP
+Contato: E-mail comercial: comercial@mosten.com​
+Telefone: +55 13 4101-0010
+Dados Bancários: Banco: 341 – Itaú Unibanco SA​, Agência: 0268​, Conta: 40818-4
+Identificação: CNPJ: 67.201.640/0001-30​, Inscrição Municipal: 1032433
+Representante Comercial: Nome: Richard Papadimitriou, Email: richard.lucio@mosten.com, Telefone: +55 13 996094955
+
+Tecnologia e negócios caminham juntos.

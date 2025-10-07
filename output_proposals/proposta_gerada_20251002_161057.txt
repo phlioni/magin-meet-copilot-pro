@@ -1,0 +1,101 @@
+======================================================================
+                  PROPOSTA TÉCNICA E COMERCIAL
+======================================================================
+
+CLIENTE: Bridgestone
+PROJETO: Sistema de Coleta e Análise de Dados de Produção
+DATA: 02 de Outubro de 2025
+VALIDADE: 15 dias
+
+----------------------------------------------------------------------
+1. OBJETIVO
+----------------------------------------------------------------------
+
+Desenvolver um sistema para a Bridgestone que permita a coleta automática de dados de cinco máquinas de produção a cada 5 segundos, armazenando essas informações em um banco de dados SQL Server 2019 otimizado. O sistema também deve possibilitar a visualização dos resultados em até 12 relatórios tabulares desenvolvidos em SSRS, garantindo a integridade, consistência e segurança dos dados.
+
+----------------------------------------------------------------------
+2. FUNCIONALIDADES POR MÓDULO
+----------------------------------------------------------------------
+
+A solução será entregue nos seguintes módulos funcionais:
+
+**Módulo 1: Coleta de Dados**
+- **Funcionalidade 1.1:** Integração com CLPs Rockwell para captura automática de dados de produção via FTTM/RSLINX ou OPC Router/Kepware.
+- **Funcionalidade 1.2:** Monitoramento e tratamento de falhas na coleta de dados, com geração de logs.
+
+**Módulo 2: Armazenamento de Dados**
+- **Funcionalidade 2.1:** Modelagem e otimização do banco de dados SQL Server 2019, incluindo índices e rotinas de limpeza.
+- **Funcionalidade 2.2:** Garantia de integridade e segurança das informações armazenadas.
+
+**Módulo 3: Relatórios e Visualização**
+- **Funcionalidade 3.1:** Desenvolvimento de até 12 relatórios tabulares em SSRS para consumo dos usuários finais.
+- **Funcionalidade 3.2:** Interface de usuário para visualização e interpretação dos dados coletados.
+
+**Módulo 4: Treinamento e Suporte**
+- **Funcionalidade 4.1:** Treinamento dos usuários para uso da interface e interpretação dos dados.
+- **Funcionalidade 4.2:** Suporte ao Go Live e assistência inicial aos usuários.
+
+----------------------------------------------------------------------
+3. ESTIMATIVA DE HORAS
+----------------------------------------------------------------------
+
+A estimativa de esforço foi calculada com base na análise de complexidade de cada módulo, comparada a projetos similares.
+
+**3.1. Estimativa de Horas por Módulo:**
+
+| MÓDULO                       | HORAS ESTIMADAS |
+|------------------------------|-----------------|
+| Coleta de Dados              | 200             |
+| Armazenamento de Dados       | 150             |
+| Relatórios e Visualização    | 180             |
+| Treinamento e Suporte        | 70              |
+| **TOTAL POR MÓDULO**         | **600**         |
+
+**3.2. Estimativa de Horas por Fase do Projeto:**
+
+| FASE DO PROJETO                | HORAS ESTIMADAS |
+|--------------------------------|-----------------|
+| Discovery e Planejamento       | 80              |
+| Design UI/UX e Prototipagem    | 60              |
+| Desenvolvimento                | 300             |
+| Testes e Homologação           | 100             |
+| Implantação e Treinamento      | 60              |
+| **TOTAL GERAL**                | **600**         |
+
+----------------------------------------------------------------------
+4. CRONOGRAMA MACRO DE ENTREGAS
+----------------------------------------------------------------------
+
+O projeto será executado ao longo de 6 meses, com as seguintes entregas principais:
+
+- **Mês 1-2:** Discovery e Planejamento
+- **Mês 3:** Design UI/UX e Prototipagem
+- **Mês 4-5:** Desenvolvimento
+- **Mês 6:** Testes, Homologação e Implantação
+
+----------------------------------------------------------------------
+5. EQUIPE RECOMENDADA
+----------------------------------------------------------------------
+
+Para garantir a qualidade e o sucesso do projeto, recomendamos a seguinte equipe:
+
+- Gerente de Projetos
+- Arquiteto de Soluções
+- Desenvolvedor Sênior
+- Analista de Negócios
+- Especialista em Banco de Dados
+- Especialista em Relatórios SSRS
+
+----------------------------------------------------------------------
+6. PREMISSAS E RESTRIÇÕES
+----------------------------------------------------------------------
+
+**Premissas:**
+- Acesso contínuo aos CLPs Rockwell para integração.
+- Disponibilidade de documentação técnica das máquinas e protocolos de comunicação.
+- Participação ativa dos usuários finais durante o treinamento.
+
+**Restrições (Fora do Escopo):**
+- Integração com sistemas externos não especificados no briefing.
+- Desenvolvimento de funcionalidades adicionais não listadas na proposta.
+- Suporte contínuo após o período inicial de Go Live.

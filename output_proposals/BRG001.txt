@@ -1,0 +1,104 @@
+======================================================================
+                  PROPOSTA TÉCNICA E COMERCIAL
+======================================================================
+
+CLIENTE: Bridgestone
+PROJETO: Sistema de Coleta e Relatórios de Dados de Produção
+DATA: [Data Atual]
+
+----------------------------------------------------------------------
+1. OBJETIVO DO PROJETO
+----------------------------------------------------------------------
+Desenvolver um sistema que coleta dados de cinco máquinas de produção de pneus a cada cinco segundos, armazena essas informações em um banco de dados SQL Server e permite a visualização dos resultados em relatórios tabulares.
+
+----------------------------------------------------------------------
+2. FUNCIONALIDADES DA SOLUÇÃO COMPLETA
+----------------------------------------------------------------------
+- **Módulo de Coleta de Dados:**
+  - Comunicação automática com máquinas de produção via protocolos industriais.
+  - Suporte para até 300 tags de dados.
+  - Tratamento de falhas e logs de monitoramento.
+
+- **Módulo de Armazenamento de Dados:**
+  - Banco de dados SQL Server 2019 otimizado com índices e particionamento.
+  - Rotinas de limpeza periódica para gerenciamento de volume de dados.
+
+- **Módulo de Relatórios:**
+  - Desenvolvimento de até 12 relatórios em SSRS para consumo dos usuários finais.
+
+- **Módulo de Testes Integrados:**
+  - Testes de coleta diretamente nas máquinas (in loco).
+
+- **Módulo de Apoio ao Consumo e Entendimento dos Dados:**
+  - Treinamento de usuários para uso da interface e interpretação dos dados.
+  - Disponibilização de material de apoio.
+
+- **Módulo de Go Live e Suporte Inicial:**
+  - Participação no Go Live e suporte inicial aos usuários.
+
+----------------------------------------------------------------------
+3. ESTRUTURA DE ESFORÇO E CRONOGRAMA (PROJETO COMPLETO)
+----------------------------------------------------------------------
+A estimativa de esforço para o projeto completo foi calculada com base na análise de complexidade de cada módulo, comparada ao nosso portfólio de projetos similares.
+
+**3.1. Matriz de Estimativa de Esforço (Horas):**
+
+| Módulo                          | Discovery | Desenvolvimento | Testes | Treinamento | Go Live |
+|---------------------------------|-----------|-----------------|--------|-------------|---------|
+| Coleta de Dados                 | 80        | 200             | 40     | 0           | 20      |
+| Armazenamento de Dados          | 40        | 120             | 20     | 0           | 10      |
+| Relatórios                      | 40        | 160             | 40     | 20          | 10      |
+| Testes Integrados               | 20        | 40              | 80     | 0           | 10      |
+| Apoio ao Consumo e Entendimento | 20        | 40              | 20     | 40          | 10      |
+| Go Live e Suporte Inicial       | 20        | 40              | 20     | 0           | 40      |
+
+**3.2. Cronograma de Execução:**
+
+- **Discovery e Mapeamento:** Semanas 1-2
+- **Desenvolvimento:** Semanas 3-10
+- **Testes Integrados:** Semanas 11-12
+- **Treinamento e Preparação para Go Live:** Semanas 13-14
+- **Go Live e Suporte Inicial:** Semanas 15-16
+
+----------------------------------------------------------------------
+4. EQUIPE RECOMENDADA
+----------------------------------------------------------------------
+- Gerente de Projetos
+- Engenheiro de Dados
+- Desenvolvedor Full-stack
+- Analista de Negócios
+- Especialista em SSRS
+- Técnico de Suporte
+
+----------------------------------------------------------------------
+5. PREMISSAS E RESTRIÇÕES
+----------------------------------------------------------------------
+**Premissas:**
+- Acesso contínuo às máquinas de produção para integração.
+- Disponibilidade de infraestrutura de TI para instalação do SQL Server e SSRS.
+- Participação ativa dos usuários finais para definição de requisitos e testes.
+
+**Restrições (Fora do Escopo):**
+- Integração com sistemas externos não especificados no briefing.
+- Desenvolvimento de funcionalidades além dos 12 relatórios SSRS.
+
+----------------------------------------------------------------------
+6. SUGESTÃO DE MVP (MÍNIMO PRODUTO VIÁVEL)
+----------------------------------------------------------------------
+
+Para gerar valor rapidamente e mitigar riscos, propomos uma entrega inicial focada no maior impacto de negócio.
+
+**Módulo(s) / Funcionalidade(s) do MVP:**
+- Coleta de Dados de duas máquinas críticas (Triplex A e Calandra 1).
+- Armazenamento básico no SQL Server.
+- Desenvolvimento de 3 relatórios SSRS essenciais para monitoramento inicial.
+
+**Justificativa de Valor (Efeito UAU):**
+- Este MVP é usável pois resolve o problema imediato de coleta e visualização de dados críticos, viável por ser implementado rapidamente, e gera alto valor percebido ao permitir que a Bridgestone comece a monitorar e otimizar a produção com dados reais.
+
+**Estimativa de Esforço e Tempo para o MVP:**
+- **Horas:** 320
+- **Cronograma:** 4 semanas
+
+**Evolução Pós-MVP:**
+- Após o sucesso do MVP, os demais módulos e funcionalidades serão integrados em fases subsequentes, expandindo a coleta para todas as máquinas e completando o conjunto de relatórios planejados.
